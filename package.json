@@ -1,0 +1,23 @@
+{
+  "name": "cp-login",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+      "node": "8.1.1",
+      "npm": "5.0.3"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "material-ui": "^0.19.4",
+    "react": "^16.0.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
